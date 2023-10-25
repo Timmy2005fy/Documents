@@ -1,0 +1,49 @@
+/*  container holding the image and the text*/
+.container { 
+    position: relative;
+    text-align: center;
+    color: white;
+   
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2cm;
+    height: 15cm;
+}
+.top-center{
+    position: relative;
+    top: 1400%;
+    left:50%;
+    transform: translate(-50% ,-1400%);
+    text-align: center;
+    color: purple;
+    font-size:xx-large;
+    border: 10px ,
+}
+.collect{
+  position: fixed;
+  left:650px;
+  bottom: 500px;
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+  color:lightblue;
+}
+body{
+    background-image: url(gojo.jpg);
+    background-repeat: no-repeat;
+}
+.l{
+    position: fixed;
+    left:690px;
+    bottom: 490px;
+    color: lightblue;
+}
+.button{
+    position: fixed;
+    left:690px;
+    bottom: 460px;
+    color: blue;
+}
